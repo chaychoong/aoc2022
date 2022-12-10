@@ -1,6 +1,6 @@
 import os
 
-from day1.solution import get_most_calories, get_most_calories_top3
+from day01.solution import get_most_calories, get_most_calories_top3
 from utils.get_input import get_input_as_list
 from utils.timing import timeit
 
