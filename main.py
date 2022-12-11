@@ -14,3 +14,6 @@ if __name__ == "__main__":
     day_number = sys.argv[1] if len(sys.argv) > 1 else "."
 
     pytest.main(["-rP", day_number])
+
+    # use the -s flag to print live output from print statements
+    # pytest.main(["-s", "-rP", day_number])
